@@ -1,0 +1,25 @@
+.top-header {
+  padding: 16px 0 16px;
+  color: map-get($color, gray);
+  background: map-get($color, gray-2);
+  .wrapper-header {
+    @extend %clearfix;
+    .fap {
+      padding-right: 5px;
+    }
+    .email {
+      float: left;
+      padding-right: 20px;
+    }
+    .phone {
+      float: left;
+      .sdt-a {
+        color: map-get($color, gray);
+        text-decoration: none;
+      }
+    }
+    .account {
+      float: right;
+    }
+  }
+}
